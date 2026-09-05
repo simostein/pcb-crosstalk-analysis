@@ -1,0 +1,82 @@
+{
+  "model": "Simulated - quasi-TEM FDM + lossless MTL modal propagation (far-end victim voltage only)",
+  "geometries": {
+    "Baseline": {
+      "name": "Baseline",
+      "width_mil": 4.0,
+      "gap_mil": 4.0,
+      "height_mil": 3.0,
+      "er": 4.0,
+      "coupled_length_in": 3.0,
+      "peak_pos_mV": 0.10299275254718214,
+      "peak_neg_mV": -33.4600944652749,
+      "peak_abs_mV": 33.4600944652749,
+      "Z_even_ohm": 66.43221916495982,
+      "Z_odd_ohm": 54.43762013871481,
+      "Z_geometric_mean_ohm": 60.13661041224333,
+      "delay_even_ps_per_in": 151.20772700576515,
+      "delay_odd_ps_per_in": 143.45418501058293,
+      "C_matrix_pF_per_m": [
+        [
+          96.67959566777904,
+          -7.0685576328311335
+        ],
+        [
+          -7.0685576328311335,
+          96.67959566777874
+        ]
+      ],
+      "L_matrix_nH_per_m": [
+        [
+          351.46396241727234,
+          44.01103206628686
+        ],
+        [
+          44.01103206628686,
+          351.46396241727325
+        ]
+      ]
+    },
+    "Revised": {
+      "name": "Revised",
+      "width_mil": 3.0,
+      "gap_mil": 8.0,
+      "height_mil": 2.0,
+      "er": 4.0,
+      "coupled_length_in": 3.0,
+      "peak_pos_mV": 0.07166629969124917,
+      "peak_neg_mV": -11.953999375347895,
+      "peak_abs_mV": 11.953999375347895,
+      "Z_even_ohm": 57.64186845686867,
+      "Z_odd_ohm": 55.40627757699736,
+      "Z_geometric_mean_ohm": 56.513019418343184,
+      "delay_even_ps_per_in": 151.3617612629585,
+      "delay_odd_ps_per_in": 148.06269708376422,
+      "C_matrix_pF_per_m": [
+        [
+          104.29544655950288,
+          -0.9135712195216258
+        ],
+        [
+          -0.9135712195216258,
+          104.29544655950288
+        ]
+      ],
+      "L_matrix_nH_per_m": [
+        [
+          333.2357800303412,
+          10.25928816333653
+        ],
+        [
+          10.25928816333653,
+          333.23578003034106
+        ]
+      ]
+    }
+  },
+  "comparison": {
+    "baseline_peak_abs_mV": 33.4600944652749,
+    "improved_peak_abs_mV": 11.953999375347895,
+    "reduction_percent": 64.27386244305488
+  }
+}

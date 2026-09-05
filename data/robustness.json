@@ -1,0 +1,100 @@
+{
+  "width_sensitivity": {
+    "Spacing-only": {
+      "W_used": 4.09375,
+      "Z_used": 60.58492222192981,
+      "far_used": 17.69202973867337,
+      "shifts": [
+        {
+          "dW_mil": -0.125,
+          "dZ_ohm": 2.013386576131161,
+          "dpeak_pct": 1.8506022508532223
+        },
+        {
+          "dW_mil": 0.125,
+          "dZ_ohm": 0.0,
+          "dpeak_pct": 0.0
+        }
+      ]
+    },
+    "Plane-only": {
+      "W_used": 2.890625,
+      "Z_used": 58.92468492807744,
+      "far_used": 27.454036247395795,
+      "shifts": [
+        {
+          "dW_mil": -0.125,
+          "dZ_ohm": 0.0,
+          "dpeak_pct": 0.0
+        },
+        {
+          "dW_mil": 0.125,
+          "dZ_ohm": -2.5782186945322536,
+          "dpeak_pct": -2.9056304698711735
+        }
+      ]
+    },
+    "Combined": {
+      "W_used": 2.890625,
+      "Z_used": 59.09949994126599,
+      "far_used": 12.153957801189398,
+      "shifts": [
+        {
+          "dW_mil": -0.125,
+          "dZ_ohm": 0.0,
+          "dpeak_pct": 0.0
+        },
+        {
+          "dW_mil": 0.125,
+          "dZ_ohm": -2.5864805229228054,
+          "dpeak_pct": -1.6452124411846725
+        }
+      ]
+    }
+  },
+  "skew": {
+    "h=2.0": {
+      "W_mil": 2.890625,
+      "skew_ps_per_in": 6.959795443000225,
+      "Ze_minus_Zo_ohm": 7.552695460503898
+    },
+    "h=3.0": {
+      "W_mil": 4.09375,
+      "skew_ps_per_in": 7.753541995182198,
+      "Ze_minus_Zo_ohm": 11.994599026245005
+    },
+    "h=4.0": {
+      "W_mil": 5.46875,
+      "skew_ps_per_in": 7.458829828316959,
+      "Ze_minus_Zo_ohm": 15.353476888759587
+    },
+    "h=5.0": {
+      "W_mil": 6.5,
+      "skew_ps_per_in": 6.576582217819106,
+      "Ze_minus_Zo_ohm": 17.65591545741107
+    },
+    "h=6.0": {
+      "W_mil": 7.53125,
+      "skew_ps_per_in": 5.348110697301347,
+      "Ze_minus_Zo_ohm": 19.67197796183114
+    }
+  },
+  "domain_robustness": {
+    "Baseline": {
+      "far_mV_large_domain": 37.2840602641957,
+      "reduction_pct_large_domain": 0.0
+    },
+    "Spacing-only": {
+      "far_mV_large_domain": 21.231609069568634,
+      "reduction_pct_large_domain": 43.05446102403824
+    },
+    "Plane-only": {
+      "far_mV_large_domain": 29.331223844399386,
+      "reduction_pct_large_domain": 21.330392568412172
+    },
+    "Combined": {
+      "far_mV_large_domain": 13.890918714194258,
+      "reduction_pct_large_domain": 62.743009705051186
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "checks": {
+    "grid_convergence": {
+      "refinement_changes_pct": [
+        -7.895346291677311,
+        -3.641727039927224
+      ],
+      "criterion_pct": 5.0,
+      "pass": false,
+      "rows": [
+        {
+          "dx_mil": 0.5,
+          "C11_pF_per_m": 101.49445575066528,
+          "Cmutual_pF_per_m": 8.459103670565096,
+          "Z_even_ohm": 64.5964883424066,
+          "Z_odd_ohm": 52.14371045755796,
+          "Zgm_ohm": 58.037062164632935,
+          "peak_far_abs_mV": 30.818304137719092,
+          "peak_near_abs_mV": 31.838019866277975
+        },
+        {
+          "dx_mil": 0.25,
+          "C11_pF_per_m": 96.67959566777904,
+          "Cmutual_pF_per_m": 7.0685576328311335,
+          "Z_even_ohm": 66.43221916495982,
+          "Z_odd_ohm": 54.43762013871481,
+          "Zgm_ohm": 60.13661041224333,
+          "peak_far_abs_mV": 33.4600944652749,
+          "peak_near_abs_mV": 30.494233512603156
+        },
+        {
+          "dx_mil": 0.125,
+          "C11_pF_per_m": 94.02383455765425,
+          "Cmutual_pF_per_m": 6.387845675167537,
+          "Z_even_ohm": 67.4924603101292,
+          "Z_odd_ohm": 55.721386632490734,
+          "Zgm_ohm": 61.32514554176569,
+          "peak_far_abs_mV": 34.72467224390738,
+          "peak_near_abs_mV": 29.910956646892465
+        }
+      ]
+    },
+    "domain_convergence": {
+      "refinement_changes_pct": [
+        -10.256301947331096,
+        -3.7049375102752498
+      ],
+      "criterion_pct": 5.0,
+      "pass": false,
+      "rows": [
+        {
+          "half_width_mil": 30.0,
+          "top_mil": 20.0,
+          "C11_pF_per_m": 96.67959566777904,
+          "Cmutual_pF_per_m": 7.0685576328311335,
+          "Z_even_ohm": 66.43221916495982,
+          "Z_odd_ohm": 54.43762013871481,
+          "Zgm_ohm": 60.13661041224333,
+          "peak_far_abs_mV": 33.4600944652749,
+          "peak_near_abs_mV": 30.494233512603156
+        },
+        {
+          "half_width_mil": 45.0,
+          "top_mil": 30.0,
+          "C11_pF_per_m": 96.42919015406451,
+          "Cmutual_pF_per_m": 7.280037259843766,
+          "Z_even_ohm": 67.25862590753515,
+          "Z_odd_ohm": 54.485514860626694,
+          "Zgm_ohm": 60.53611204388945,
+          "peak_far_abs_mV": 37.2840602641957,
+          "peak_near_abs_mV": 32.35840299819002
+        },
+        {
+          "half_width_mil": 60.0,
+          "top_mil": 40.0,
+          "C11_pF_per_m": 96.34983416397881,
+          "Cmutual_pF_per_m": 7.353322156240936,
+          "Z_even_ohm": 67.55032851805156,
+          "Z_odd_ohm": 54.49362069267171,
+          "Zgm_ohm": 60.67175603135339,
+          "peak_far_abs_mV": 38.71855866771376,
+          "peak_near_abs_mV": 33.05105605137391
+        }
+      ]
+    },
+    "hammerstad_jansen": {
+      "model_Z0_ohm": 61.239545948932765,
+      "HJ_Z0_ohm": 64.14730543594965,
+      "error_pct": -4.532940966507544,
+      "criterion_pct": 10.0,
+      "pass": true,
+      "model_effective_er": 3.077394136503192,
+      "HJ_effective_er": 2.974341649025257
+    },
+    "large_separation": {
+      "mutual_C_over_C11_pct": 0.038455236093041606,
+      "mutual_L_over_L11_pct": 0.20620418063228657,
+      "Ze_minus_Zo_ohm": 0.14982853343334313,
+      "far_mV": 0.9355089469557829,
+      "near_mV": 0.497187877558168,
+      "far_over_baseline_pct": 2.795894518249672
+    },
+    "zero_length": {
+      "far_mV": 0.0,
+      "near_mV": 0.0,
+      "pass": true
+    },
+    "next_diagnostics": {
+      "near_pos_mV": 30.494233512603156,
+      "near_neg_mV": -9.732161431533162e-06,
+      "far_neg_mV": -33.4600944652749,
+      "near_peak_L1_mV": 28.374692344874582,
+      "near_peak_L3_mV": 30.494233512603156,
+      "near_peak_L5_mV": 31.7305592524953,
+      "wide_far_L1_mV": 0.4063395212910675,
+      "wide_far_L3_mV": 0.9355089469557829,
+      "near_onset_before_far_peak": false,
+      "near_halfwidth_L3_ns": 0.9140000000000001,
+      "near_halfwidth_L1_ns": 0.31999999999999995,
+      "roundtrip_2td_L3_ns": 0.8839857360490442,
+      "roundtrip_2td_L1_ns": 0.294661912016348,
+      "symmetric_C": true,
+      "width_grows_with_length": true
+    }
+  }
+}

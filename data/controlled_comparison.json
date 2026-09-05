@@ -1,0 +1,71 @@
+{
+  "target_Zgm_ohm": 60.13661041224333,
+  "tolerance_ohm": 0.5,
+  "note": "Simulated. Constant-Z design-optimization study; distinct from the v1 combined geometry (W=3,S=8,h=2, 64.3% headline).",
+  "cases": [
+    {
+      "case": "Baseline",
+      "W_mil": 4.0,
+      "S_mil": 4.0,
+      "h_mil": 3.0,
+      "Z_even_ohm": 66.43221916495982,
+      "Z_odd_ohm": 54.43762013871481,
+      "Zgm_ohm": 60.13661041224333,
+      "far_pos_mV": 0.10299275254718214,
+      "far_neg_mV": -33.4600944652749,
+      "far_abs_mV": 33.4600944652749,
+      "near_pos_mV": 30.494233512603156,
+      "near_neg_mV": -9.732161431533162e-06,
+      "near_abs_mV": 30.494233512603156,
+      "far_reduction_vs_baseline_pct": 0.0
+    },
+    {
+      "case": "Spacing-only",
+      "W_mil": 4.09375,
+      "S_mil": 8.0,
+      "h_mil": 3.0,
+      "Z_even_ohm": 62.728414290339984,
+      "Z_odd_ohm": 58.51467540129637,
+      "Zgm_ohm": 60.58492222192981,
+      "far_pos_mV": 0.06985035977585462,
+      "far_neg_mV": -17.69202973867337,
+      "far_abs_mV": 17.69202973867337,
+      "near_pos_mV": 11.987992994865838,
+      "near_neg_mV": -1.1111744048528011e-05,
+      "near_abs_mV": 11.987992994865838,
+      "far_reduction_vs_baseline_pct": 47.12498568396371
+    },
+    {
+      "case": "Plane-only",
+      "W_mil": 2.890625,
+      "S_mil": 4.0,
+      "h_mil": 2.0,
+      "Z_even_ohm": 62.82191738668744,
+      "Z_odd_ohm": 55.26922192618354,
+      "Zgm_ohm": 58.92468492807744,
+      "far_pos_mV": 0.08726574899790422,
+      "far_neg_mV": -27.454036247395795,
+      "far_abs_mV": 27.454036247395795,
+      "near_pos_mV": 20.456660263253518,
+      "near_neg_mV": -1.9049977055256564e-06,
+      "near_abs_mV": 20.456660263253518,
+      "far_reduction_vs_baseline_pct": 17.949914110709493
+    },
+    {
+      "case": "Combined",
+      "W_mil": 2.890625,
+      "S_mil": 8.0,
+      "h_mil": 2.0,
+      "Z_even_ohm": 60.28434824182118,
+      "Z_odd_ohm": 57.937939036797374,
+      "Zgm_ohm": 59.09949994126599,
+      "far_pos_mV": 0.09334716642880354,
+      "far_neg_mV": -12.153957801189398,
+      "far_abs_mV": 12.153957801189398,
+      "near_pos_mV": 7.079092711657978,
+      "near_neg_mV": -2.500351362560236e-06,
+      "near_abs_mV": 7.079092711657978,
+      "far_reduction_vs_baseline_pct": 63.67625974934753
+    }
+  ]
+}
